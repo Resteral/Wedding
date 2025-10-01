@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Talita & Mike’s Wedding — Test Invitation</title>
+  <meta name="description" content="Test invitation page with sand-beige palette, RSVP via email, itinerary, and a QR code." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container" role="main">
+
+    <!-- Header / Hero -->
+    <header class="hero" aria-label="Wedding header">
+      <span class="badge" aria-label="Wedding celebration">Talita & Mike</span>
+      <h1>Talita & Mike’s Wedding</h1>
+      <p>August 6, 2026 • 6:00 PM • Granite Rose, Hampston, NH</p>
+    </header>
+
+    <!-- Invitation -->
+    <section class="card invitation" id="invitation" aria-labelledby="inv-title">
+      <h2 id="inv-title">Invitation</h2>
+      <p>Dear <strong>[Guest Name]</strong>,</p>
+      <p>You’re invited to celebrate the wedding of <span class="names"><strong>Talita & Mike</strong></span>.</p>
+      <p>Date: <strong>August 6, 2026</strong> • Time: <strong>6:00 PM</strong><br>Venue: Granite Rose, Hampston, NH</p>
+      <p>Reception to follow. We can’t wait to celebrate with you!</p>
+      <div class="rsvp-actions" style="margin-top:12px;">
+        <a class="cta" href="mailto:smithtalita2002@gmail.com?subject=RSVP%20%E2%80%93%20[Guest%20Name]">RSVP Now via Email</a>
+        <a class="cta secondary" href="#rsvp">Open RSVP Section</a>
+      </div>
+    </section>
+
+    <section class="card" id="itinerary" aria-labelledby="it-title">
+      <h2 id="it-title">Itinerary</h2>
+      <ol>
+        <li><strong>Welcome</strong> & Guests Arrive: 5:30 PM – 6:00 PM</li>
+        <li><strong>Ceremony</strong>: 6:00 PM</li>
+        <li><strong>Cocktail Hour</strong>: 6:45 PM – 7:45 PM</li>
+        <li><strong>Reception</strong>: 8:00 PM onward</li>
+        <li><strong>Send-Off</strong>: TBA</li>
+      </ol>
+      <span class="badge" aria-label="Itinerary duration">Event Schedule</span>
+    </section>
+
+    <section class="card" id="rsvp" aria-labelledby="rsvp-title">
+      <h2 id="rsvp-title">RSVP</h2>
+      <p><strong>Email RSVP (Preferred):</strong><br> Email: <a href="mailto:smithtalita2002@gmail.com">smithtalita2002@gmail.com</a><br> Subject: RSVP – [Guest Name]</p>
+      <p>Details: Full name, number of attendees, meal preference, dietary restrictions</p>
+      <p><strong>Online RSVP (Optional):</strong><br> Link: [RSVP Form]</p>
+      <p><strong>Phone RSVP (Optional):</strong><br> Phone: [Phone Number]</p>
+      <p><em>Please RSVP by September 6, 2026.</em></p>
+      <a class="cta" href="mailto:smithtalita2002@gmail.com?subject=RSVP%20%E2%80%93%20[Guest%20Name]">RSVP Now via Email</a>
+    </section>
+
+    <section class="card qr" id="qr" aria-labelledby="qr-title">
+      <h2 id="qr-title">QR Code Page</h2>
+      <p>Scan to view the invitation, itinerary, and RSVP.</p>
+      <p>Link (example): <a href="https://www.talimikewedding.com/invitation">https://www.talimikewedding.com/invitation</a></p>
+      <p>Print QR code on invitations and signage.</p>
+      <img src="assets/qr-code.png" alt="QR code pointing to invitation page" />
+    </section>
+  </main>
+</body>
+</html>
